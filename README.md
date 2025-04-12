@@ -27,6 +27,6 @@ Script de provisionamento de diretórios, grupos e usuários desenvolvido como d
 ### ⚡ Execução Rápida
 ```bash
 docker run -it --name test-script --rm ubuntu:22.04 bash -c "
-apt-get update -qq && apt-get install -y -qq wget && 
+apt-get update -qq && apt-get install -y -qq wget &&
 wget -q https://raw.githubusercontent.com/sergiorbcruz88/linux-projeto1-iac/main/iac1.sh -O iac1.sh &&
-chmod +x iac1.sh && ./iac1.sh"
+chmod +x iac1.sh && ./iac1.sh && bash"
